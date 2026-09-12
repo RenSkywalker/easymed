@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 
 :root {
   --green: #3e5b4a;
@@ -31,7 +31,7 @@ html {
 body {
   background: var(--cream);
   color: var(--text);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -39,7 +39,7 @@ body,
 button,
 input,
 textarea {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -257,7 +257,7 @@ img {
 
   color: var(--green-dark);
 
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   font-size: clamp(48px, 5.3vw, 76px);
   line-height: 1.01;
@@ -344,7 +344,7 @@ img {
 
   color: rgba(38, 60, 51, 0.56);
 
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   font-size: 11px;
   font-weight: 600;
@@ -417,7 +417,7 @@ img {
 }
 
 .hero-frame-top span:first-child {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   font-size: 27px;
   font-weight: 600;
@@ -457,7 +457,7 @@ img {
 
   color: var(--white);
 
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   font-size: clamp(35px, 4vw, 50px);
 
@@ -494,7 +494,7 @@ img {
 
   color: rgba(255, 255, 255, 0.3);
 
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   font-size: 12px;
   font-weight: 700;
@@ -545,7 +545,7 @@ img {
 .section-intro h2 {
   color: var(--green-dark);
 
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   font-size: clamp(37px, 4.2vw, 57px);
 
@@ -601,7 +601,7 @@ img {
 .audience-number {
   color: var(--gold);
 
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   font-size: 13px;
   font-weight: 700;
@@ -610,7 +610,7 @@ img {
 .audience-main h3 {
   color: var(--green-dark);
 
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   font-size: 25px;
   font-weight: 600;
@@ -821,7 +821,7 @@ img {
 
   color: var(--green-dark);
 
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   font-size: clamp(38px, 4.8vw, 64px);
   line-height: 1.04;
@@ -875,7 +875,7 @@ img {
 
   color: var(--white);
 
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   font-size: clamp(30px, 3vw, 43px);
 
@@ -989,7 +989,7 @@ img {
 
   color: var(--green);
 
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   font-size: 17px;
 }
@@ -1012,7 +1012,7 @@ img {
 
   color: var(--green-dark);
 
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   font-size: 32px;
 
@@ -1041,7 +1041,7 @@ img {
 
   color: var(--green);
 
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   font-size: 26px;
 }
@@ -1063,7 +1063,7 @@ img {
 .plans-header h3 {
   color: var(--green-dark);
 
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   font-size: clamp(34px, 4vw, 52px);
 
@@ -1132,7 +1132,7 @@ img {
 .plan-card h4 {
   color: var(--green-dark);
 
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   font-size: 25px;
 }
@@ -1165,7 +1165,7 @@ img {
 .plan-price strong {
   margin-left: 4px;
 
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   font-size: 45px;
   line-height: 1;
@@ -1334,7 +1334,7 @@ img {
 }
 
 .peritos-hero h1 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(64px, 8vw, 108px);
   line-height: 0.92;
   letter-spacing: -0.065em;
@@ -1343,8 +1343,8 @@ img {
 }
 
 .peritos-hero h1 em {
-  font-family: Georgia, serif;
-  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   color: #3e5b4a;
 }
 
@@ -1434,7 +1434,8 @@ img {
 }
 
 .peritos-intro-label span {
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   font-size: 22px;
 }
 
@@ -1446,7 +1447,7 @@ img {
 }
 
 .peritos-intro-content h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(38px, 5vw, 64px);
   line-height: 1.02;
   letter-spacing: -0.045em;
@@ -1487,7 +1488,7 @@ img {
 .plans-heading h2,
 .software-copy h2,
 .materials-copy h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(42px, 5vw, 66px);
   line-height: 1;
   letter-spacing: -0.05em;
@@ -1517,12 +1518,13 @@ img {
 
 .service-number {
   color: #8ea693;
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   font-size: 18px;
 }
 
 .service-main h3 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 21px;
   font-weight: 600;
   margin: 0 0 7px;
@@ -1615,7 +1617,7 @@ img {
 }
 
 .perito-plan h3 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 28px;
   font-weight: 500;
   margin: 0 0 15px;
@@ -1639,7 +1641,7 @@ img {
 }
 
 .plan-price strong {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 36px;
   font-weight: 500;
 }
@@ -1728,12 +1730,13 @@ img {
 
 .software-side span {
   color: #d7c9a8;
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   font-size: 20px;
 }
 
 .software-side p {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 27px;
   line-height: 1.1;
   letter-spacing: -0.03em;
@@ -1752,7 +1755,8 @@ img {
 }
 
 .materials-number {
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   color: #8ea693;
   font-size: 25px;
 }
@@ -1778,7 +1782,7 @@ img {
 }
 
 .peritos-cta h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(48px, 7vw, 82px);
   line-height: 0.95;
   letter-spacing: -0.06em;
@@ -1944,7 +1948,7 @@ img {
 }
 
 .advogado-hero h1 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(58px, 7.5vw, 104px);
   line-height: 0.92;
   letter-spacing: -0.065em;
@@ -1953,8 +1957,8 @@ img {
 }
 
 .advogado-hero h1 em {
-  font-family: Georgia, serif;
-  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   color: #f5f2eb;
 }
 
@@ -1987,7 +1991,8 @@ img {
 }
 
 .advogado-hero-aside > span {
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   font-size: 22px;
 }
 
@@ -2013,13 +2018,14 @@ img {
 }
 
 .autor-triagem-number {
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   color: #8ea693;
   font-size: 24px;
 }
 
 .autor-triagem-content h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(42px, 5vw, 65px);
   line-height: 1;
   letter-spacing: -0.05em;
@@ -2069,7 +2075,8 @@ img {
 
 .triagem-box li strong {
   color: #8ea693;
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
 
 .triagem-box small {
@@ -2088,7 +2095,7 @@ img {
 }
 
 .autor-context-heading h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(42px, 5vw, 65px);
   line-height: 1;
   letter-spacing: -0.05em;
@@ -2133,7 +2140,7 @@ img {
 }
 
 .autor-service-row .service-main h3 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 21px;
   font-weight: 600;
   margin: 0 0 7px;
@@ -2209,7 +2216,7 @@ img {
 }
 
 .autor-result h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(42px, 5vw, 65px);
   line-height: 1;
   letter-spacing: -0.05em;
@@ -2238,7 +2245,7 @@ img {
 }
 
 .autor-cta h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(50px, 7vw, 85px);
   line-height: 0.95;
   letter-spacing: -0.06em;
@@ -2384,7 +2391,7 @@ img {
 }
 
 .defesa-hero h1 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(58px, 7.5vw, 104px);
   line-height: 0.91;
   letter-spacing: -0.065em;
@@ -2393,8 +2400,8 @@ img {
 }
 
 .defesa-hero h1 em {
-  font-family: Georgia, serif;
-  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   color: #d7c9a8;
 }
 
@@ -2429,7 +2436,8 @@ img {
 
 .defesa-hero-aside > span {
   color: #d7c9a8;
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   font-size: 22px;
 }
 
@@ -2461,7 +2469,8 @@ img {
 }
 
 .defesa-context-label span {
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   font-size: 22px;
 }
 
@@ -2473,7 +2482,7 @@ img {
 }
 
 .defesa-context-content h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(42px, 5vw, 65px);
   line-height: 1;
   letter-spacing: -0.05em;
@@ -2516,7 +2525,7 @@ img {
 }
 
 .defesa-service-row .service-main h3 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 21px;
   font-weight: 600;
   margin: 0 0 7px;
@@ -2553,12 +2562,13 @@ img {
 
 .preventiva-number {
   color: #3e5b4a;
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   font-size: 24px;
 }
 
 .preventiva-content h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(42px, 5vw, 65px);
   line-height: 1;
   letter-spacing: -0.05em;
@@ -2649,7 +2659,7 @@ img {
 }
 
 .defesa-result h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(42px, 5vw, 65px);
   line-height: 1;
   letter-spacing: -0.05em;
@@ -2678,7 +2688,7 @@ img {
 }
 
 .defesa-cta h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(50px, 7vw, 85px);
   line-height: 0.95;
   letter-spacing: -0.06em;
@@ -2814,7 +2824,7 @@ img {
 }
 
 .empresas-hero h1 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(58px, 7.5vw, 104px);
   line-height: 0.91;
   letter-spacing: -0.065em;
@@ -2823,8 +2833,8 @@ img {
 }
 
 .empresas-hero h1 em {
-  font-family: Georgia, serif;
-  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   color: #3e5b4a;
 }
 
@@ -2857,7 +2867,8 @@ img {
 }
 
 .empresas-hero-aside > span {
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   font-size: 22px;
   color: #3e5b4a;
 }
@@ -2886,7 +2897,8 @@ img {
 }
 
 .empresas-intro-label span {
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   font-size: 22px;
 }
 
@@ -2898,7 +2910,7 @@ img {
 }
 
 .empresas-intro-content h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(42px, 5vw, 65px);
   line-height: 1;
   letter-spacing: -0.05em;
@@ -2933,7 +2945,8 @@ img {
 
 .auditoria-number {
   color: #d7c9a8;
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   font-size: 24px;
 }
 
@@ -2942,7 +2955,7 @@ img {
 }
 
 .auditoria-content h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(42px, 5vw, 65px);
   line-height: 1;
   letter-spacing: -0.05em;
@@ -3004,7 +3017,7 @@ img {
 
 .auditoria-price strong {
   display: block;
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 38px;
   font-weight: 500;
   margin: 12px 0 15px;
@@ -3043,7 +3056,7 @@ img {
 }
 
 .empresas-service-row .service-main h3 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 21px;
   font-weight: 600;
   margin: 0 0 7px;
@@ -3078,7 +3091,7 @@ img {
 }
 
 .flow-heading h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(48px, 6vw, 76px);
   line-height: 0.9;
   letter-spacing: -0.06em;
@@ -3101,11 +3114,12 @@ img {
 
 .flow-items article > span {
   color: #8ea693;
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
 
 .flow-items h3 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   margin: 0;
 }
@@ -3129,7 +3143,7 @@ img {
 }
 
 .empresas-plan h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(42px, 5vw, 65px);
   line-height: 1;
   letter-spacing: -0.05em;
@@ -3159,7 +3173,7 @@ img {
 }
 
 .plan-proposal strong {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 27px;
   font-weight: 500;
 }
@@ -3178,7 +3192,7 @@ img {
 }
 
 .empresas-result h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(50px, 7vw, 85px);
   line-height: 0.95;
   letter-spacing: -0.06em;
@@ -3202,7 +3216,7 @@ img {
 }
 
 .empresas-cta h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(50px, 7vw, 85px);
   line-height: 0.95;
   letter-spacing: -0.06em;
@@ -3357,7 +3371,7 @@ img {
 }
 
 .software-hero-page h1 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(55px, 7vw, 94px);
   line-height: 0.93;
   letter-spacing: -0.065em;
@@ -3366,9 +3380,9 @@ img {
 }
 
 .software-hero-page h1 em {
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
   color: #d7c9a8;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .software-hero-copy > p {
@@ -3433,7 +3447,7 @@ img {
 }
 
 .dashboard-title strong {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 34px;
   font-weight: 500;
 }
@@ -3492,12 +3506,13 @@ img {
 
 .software-position-number {
   color: #8ea693;
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   font-size: 24px;
 }
 
 .software-position-content h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(42px, 5vw, 65px);
   line-height: 1;
   letter-spacing: -0.05em;
@@ -3535,7 +3550,7 @@ img {
 }
 
 .software-features-heading h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(45px, 5vw, 65px);
   line-height: 1;
   letter-spacing: -0.05em;
@@ -3567,11 +3582,12 @@ img {
 
 .software-feature-list article > span {
   color: #8ea693;
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
 
 .software-feature-list h3 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 19px;
   font-weight: 600;
   margin: 0 0 8px;
@@ -3595,7 +3611,7 @@ img {
 }
 
 .software-flow-heading h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(45px, 6vw, 72px);
   line-height: 0.92;
   letter-spacing: -0.06em;
@@ -3617,12 +3633,13 @@ img {
 
 .software-flow-items article > span {
   color: #3e5b4a;
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
 
 .software-flow-items h3 {
   margin: 0;
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
 }
 
@@ -3645,7 +3662,7 @@ img {
 }
 
 .software-plans-heading h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(45px, 5vw, 65px);
   line-height: 1;
   letter-spacing: -0.05em;
@@ -3692,7 +3709,7 @@ img {
 }
 
 .software-plan h3 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 28px;
   font-weight: 500;
   margin: 0 0 15px;
@@ -3729,7 +3746,7 @@ img {
 }
 
 .software-plan-price strong {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 38px;
   font-weight: 500;
 }
@@ -3790,7 +3807,7 @@ img {
 }
 
 .software-note h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(40px, 5vw, 60px);
   line-height: 1;
   letter-spacing: -0.05em;
@@ -3814,7 +3831,7 @@ img {
 }
 
 .software-cta h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(50px, 7vw, 85px);
   line-height: 0.95;
   letter-spacing: -0.06em;
@@ -3972,7 +3989,7 @@ img {
 }
 
 .materiais-hero h1 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(58px, 7.5vw, 104px);
   line-height: 0.92;
   letter-spacing: -0.065em;
@@ -3981,9 +3998,9 @@ img {
 }
 
 .materiais-hero h1 em {
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
   color: #f5f2eb;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .materiais-hero-copy > p {
@@ -4001,7 +4018,8 @@ img {
 }
 
 .materiais-hero-note > span {
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   font-size: 22px;
 }
 
@@ -4025,12 +4043,13 @@ img {
 .materiais-intro-number,
 .highlight-number {
   color: #8ea693;
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   font-size: 24px;
 }
 
 .materiais-intro h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(42px, 5vw, 65px);
   line-height: 1;
   letter-spacing: -0.05em;
@@ -4068,7 +4087,7 @@ img {
 }
 
 .materiais-products-heading h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(42px, 5vw, 65px);
   line-height: 1;
   letter-spacing: -0.05em;
@@ -4102,12 +4121,13 @@ img {
 
 .material-number {
   color: #8ea693;
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   font-size: 18px;
 }
 
 .material-product h3 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 21px;
   font-weight: 600;
   margin: 0 0 7px;
@@ -4158,7 +4178,7 @@ img {
 }
 
 .highlight-content h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(42px, 5vw, 65px);
   line-height: 1;
   letter-spacing: -0.05em;
@@ -4192,7 +4212,7 @@ img {
 }
 
 .highlight-course strong {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 28px;
   font-weight: 500;
 }
@@ -4219,7 +4239,7 @@ img {
 }
 
 .combo-copy h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(48px, 6vw, 75px);
   line-height: 0.92;
   letter-spacing: -0.06em;
@@ -4250,7 +4270,7 @@ img {
 
 .combo-price > strong {
   display: block;
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 48px;
   font-weight: 500;
   margin: 10px 0 30px;
@@ -4285,7 +4305,7 @@ img {
 }
 
 .materiais-note h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(45px, 6vw, 72px);
   line-height: 0.95;
   letter-spacing: -0.06em;
@@ -4309,7 +4329,7 @@ img {
 }
 
 .materiais-cta h2 {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(50px, 7vw, 85px);
   line-height: 0.95;
   letter-spacing: -0.06em;
@@ -4436,7 +4456,7 @@ img {
 .inner-hero h1 {
   margin: 20px 0 30px;
   max-width: 850px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(3rem, 6vw, 6.3rem);
   line-height: .95;
   letter-spacing: -.055em;
@@ -4463,7 +4483,7 @@ img {
 }
 
 .inner-hero-note span {
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: .75rem;
   letter-spacing: .15em;
 }
@@ -4508,7 +4528,7 @@ img {
 
 .audience-choice h3 {
   margin: 0 0 18px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.8rem;
   font-weight: 500;
   letter-spacing: -.035em;
@@ -4537,7 +4557,7 @@ img {
 
 .statement-block h2 {
   margin: 22px 0 30px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(2.4rem, 4vw, 4.5rem);
   line-height: 1;
   letter-spacing: -.045em;
@@ -4560,7 +4580,7 @@ img {
 .final-cta h2 {
   max-width: 800px;
   margin: 20px auto;
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(2.5rem, 5vw, 5rem);
   line-height: 1;
   letter-spacing: -.05em;
@@ -4595,7 +4615,7 @@ img {
 
 .contact-hero h1 {
   margin: 20px 0 25px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(3rem, 6vw, 6rem);
   line-height: .94;
   letter-spacing: -.055em;
@@ -4624,7 +4644,7 @@ img {
 
 .contact-intro h2 {
   margin: 30px 0 20px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   letter-spacing: -.04em;
   font-weight: 500;
@@ -4788,7 +4808,7 @@ img {
 
   color: var(--white);
 
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(3rem, 6vw, 6.3rem);
   line-height: .95;
   letter-spacing: -.055em;
@@ -4822,7 +4842,7 @@ img {
 .inner-hero-note span {
   color: var(--fendi);
 
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: .75rem;
   letter-spacing: .15em;
 }
@@ -4965,7 +4985,7 @@ img {
 
   color: var(--green-dark);
 
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(3rem, 6vw, 6rem);
   line-height: .94;
   letter-spacing: -.055em;
@@ -5013,7 +5033,7 @@ img {
 
   color: var(--green-dark);
 
-  font-family: "Manrope", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: clamp(2.2rem, 4vw, 3.4rem);
   line-height: 1;
   letter-spacing: -.045em;
@@ -5630,5 +5650,220 @@ img {
     background: var(--green-dark) !important;
     color: var(--white) !important;
     text-align: center !important;
+  }
+}
+
+/* =========================================
+   RESPONSÁVEL MÉDICO
+========================================= */
+
+.doctor-section {
+  background: var(--cream);
+  padding: 140px 0;
+  border-top: 1px solid rgba(62, 91, 74, 0.08);
+}
+
+.doctor-inner {
+  width: min(1180px, calc(100% - 80px));
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: minmax(380px, 0.85fr) minmax(0, 1.15fr);
+  gap: 90px;
+  align-items: center;
+}
+
+/* FOTO */
+
+.doctor-image-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.doctor-image-wrap::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 18px;
+  left: 18px;
+  border: 1px solid rgba(201, 169, 107, 0.55);
+  z-index: 0;
+}
+
+.doctor-image {
+  position: relative;
+  z-index: 1;
+
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+
+  border-radius: 2px;
+}
+
+/* CONTEÚDO */
+
+.doctor-content {
+  max-width: 650px;
+}
+
+.doctor-content .section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-bottom: 24px;
+
+  color: var(--gold);
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.doctor-content .section-eyebrow::before {
+  content: "";
+  width: 34px;
+  height: 1px;
+  background: var(--gold);
+}
+
+.doctor-content h2 {
+  margin: 0 0 38px;
+
+  color: var(--green-dark);
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(42px, 5vw, 68px);
+  font-weight: 500;
+  line-height: 0.98;
+  letter-spacing: -0.045em;
+}
+
+.doctor-content h2 em {
+  color: var(--green);
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.doctor-name {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+
+  margin-bottom: 28px;
+  padding-left: 20px;
+  border-left: 1px solid var(--gold);
+}
+
+.doctor-name strong {
+  color: var(--green-dark);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.doctor-name span {
+  color: #68766d;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.doctor-content p {
+  max-width: 620px;
+  margin: 0 0 20px;
+
+  color: #68766d;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.85;
+}
+
+.doctor-crm {
+  display: inline-block;
+
+  margin-top: 12px;
+  padding-top: 14px;
+
+  border-top: 1px solid rgba(62, 91, 74, 0.15);
+
+  color: var(--green-dark);
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* =========================================
+   RESPONSIVO
+========================================= */
+
+@media (max-width: 900px) {
+  .doctor-section {
+    padding: 100px 0;
+  }
+
+  .doctor-inner {
+    width: min(100% - 50px, 700px);
+    grid-template-columns: 1fr;
+    gap: 65px;
+  }
+
+  .doctor-image-wrap {
+    max-width: 520px;
+  }
+
+  .doctor-content {
+    max-width: 100%;
+  }
+
+  .doctor-content h2 {
+    font-size: clamp(42px, 9vw, 62px);
+  }
+}
+
+@media (max-width: 520px) {
+  .doctor-section {
+    padding: 80px 0;
+  }
+
+  .doctor-inner {
+    width: calc(100% - 40px);
+    gap: 50px;
+  }
+
+  .doctor-image-wrap::before {
+    top: 12px;
+    left: 12px;
+  }
+
+  .doctor-content h2 {
+    margin-bottom: 30px;
+    font-size: 43px;
+    line-height: 1;
+  }
+
+  .doctor-content p {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  .doctor-name strong {
+    font-size: 18px;
+  }
+
+  .doctor-name span {
+    font-size: 12px;
   }
 }

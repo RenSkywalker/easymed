@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer-brand">
           <Link href="/" className="footer-logo">
             <img
-              src="/logo.png"
+              src="/images/logo-negative.png"
               alt="EasyMed Perícias"
             />
           </Link>

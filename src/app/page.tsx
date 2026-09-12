@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import Software from "@/components/Software";
+import Doctor from "@/components/Doctor";
 
 export const metadata: Metadata = {
   title: "EasyMed Perícias | Suporte especializado para perícias",
@@ -36,6 +37,7 @@ export default function Home() {
         <Hero />
         <Services />
         <Software />
+        <Doctor />
       </main>
 
       <script

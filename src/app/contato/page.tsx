@@ -132,11 +132,6 @@ export default function ContatoPage() {
               Enviar mensagem
             </button>
 
-            <small>
-              Este formulário é apenas a interface inicial. A integração com
-              o canal de atendimento será configurada posteriormente.
-            </small>
-
           </form>
 
         </section>
