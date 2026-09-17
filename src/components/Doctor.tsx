@@ -12,7 +12,7 @@ export default function Doctor() {
 
         <div className="doctor-content">
           <span className="section-eyebrow">
-            RESPONSÁVEL MÉDICO
+            RESPONSÁVEL TÉCNICO
           </span>
 
           <h2>

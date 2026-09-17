@@ -13,38 +13,38 @@ const services = [
   {
     title: "Análise defensiva do processo",
     description:
-      "Leitura técnica dos elementos médicos do processo para identificar riscos e pontos de atenção para a empresa.",
-    price: "R$ 1.200",
+      "Análise técnica dos aspectos médicos do processo para apoiar a estratégia defensiva da empresa.",
+    price: "Sob proposta",
   },
   {
     title: "Quesitos de defesa",
     description:
-      "Preparação dos pontos técnicos que precisam ser esclarecidos durante a perícia.",
-    price: "R$ 450",
+      "Elaboração de quesitos técnicos direcionados aos pontos médicos relevantes para a defesa.",
+    price: "Sob proposta",
   },
   {
     title: "Acompanhamento da perícia",
     description:
-      "Suporte técnico na preparação e acompanhamento da etapa pericial.",
-    price: "R$ 1.800",
+      "Acompanhamento técnico da perícia, com atenção aos aspectos médicos relevantes para o processo.",
+    price: "Sob proposta",
   },
   {
     title: "Impugnação ao laudo",
     description:
-      "Análise crítica do laudo oficial para identificar inconsistências e pontos que merecem questionamento.",
-    price: "R$ 1.500",
+      "Análise técnica do laudo pericial e identificação dos pontos que merecem questionamento ou esclarecimento.",
+    price: "Sob proposta",
   },
   {
     title: "Segunda opinião para acordo",
     description:
-      "Avaliação técnica independente para apoiar decisões relacionadas à negociação e ao risco do processo.",
-    price: "R$ 800",
+      "Análise técnica dos elementos médicos do processo para subsidiar a avaliação de alternativas de acordo.",
+    price: "Sob proposta",
   },
   {
     title: "Auditoria preventiva de SST",
     description:
-      "Avaliação preventiva da documentação e dos processos de saúde e segurança do trabalho.",
-    price: "R$ 3.500",
+      "Análise preventiva da documentação e dos aspectos relacionados à saúde e segurança do trabalho.",
+    price: "Sob proposta",
   },
 ];
 
@@ -175,6 +175,38 @@ export default function EmpresasPage() {
           </div>
         </section>
 
+        {/* TRIAGEM GRATUITA */}
+        <section className="empresa-triagem">
+          <div className="empresa-triagem-inner">
+            <div className="empresa-triagem-content">
+              <span className="section-eyebrow">
+                TRIAGEM GRATUITA
+              </span>
+
+              <h2>
+                Antes de contratar,
+                <br />
+                entenda o seu caso.
+              </h2>
+
+              <p>
+                Envie o processo ou a demanda para uma avaliação inicial. A
+                EasyMed verifica os aspectos médicos envolvidos e indica quando
+                o suporte técnico especializado pode ser necessário.
+              </p>
+            </div>
+
+            <div className="empresa-triagem-action">
+              <span>Avaliação inicial em até 24 horas.</span>
+
+              <a href="#contato" className="btn-primary">
+                Solicitar triagem
+                <span>→</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
         {/* AUDITORIA */}
         <section id="preventiva" className="empresas-auditoria">
           <div className="auditoria-number">02</div>
@@ -213,7 +245,7 @@ export default function EmpresasPage() {
               <div className="auditoria-price">
                 <span>INVESTIMENTO</span>
 
-                <strong>R$ 3.500</strong>
+                <strong>Sob proposta</strong>
 
                 <p>
                   Avaliação preventiva de SST com análise dos principais

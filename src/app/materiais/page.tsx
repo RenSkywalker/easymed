@@ -14,21 +14,21 @@ const products = [
     number: "01",
     title: "Kit de Modelos do Perito",
     description:
-      "Modelos desenvolvidos para apoiar diferentes momentos da rotina de quem atua com perícias.",
+      "Modelos práticos para organizar e estruturar a rotina de trabalho pericial.",
     price: "R$ 597",
   },
   {
     number: "02",
     title: "Biblioteca de Prompts",
     description:
-      "Uma coleção de prompts para ajudar na organização, pesquisa e estruturação do trabalho.",
+      "Biblioteca de prompts desenvolvidos para apoiar diferentes etapas da atividade pericial.",
     price: "R$ 397",
   },
   {
     number: "03",
     title: "Combo Modelos + Prompts",
     description:
-      "A combinação dos dois materiais para quem quer reunir ferramentas de apoio em uma única solução.",
+      "A combinação dos modelos e prompts para uma estrutura mais completa de apoio à rotina pericial.",
     price: "R$ 797",
     featured: true,
   },
@@ -36,8 +36,8 @@ const products = [
     number: "04",
     title: "Curso Primeira Nomeação",
     description:
-      "Conteúdo voltado para quem está se preparando para iniciar sua atuação como perito.",
-    price: "R$ 1.997",
+      "Conteúdo para quem deseja se preparar para os primeiros passos na atuação como perito.",
+    price: "Sob proposta",
   },
 ];
 
@@ -192,7 +192,7 @@ export default function MateriaisPage() {
             <div className="highlight-course">
               <div>
                 <span>CURSO PRIMEIRA NOMEAÇÃO</span>
-                <strong>R$ 1.997</strong>
+                <strong>Sob proposta</strong>
               </div>
 
               <a href="#contato" className="btn-light">

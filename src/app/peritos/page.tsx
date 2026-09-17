@@ -15,55 +15,56 @@ const services = [
     description:
       "Organização das informações essenciais do processo para facilitar a leitura e a preparação da perícia.",
     price: "R$ 180",
+    priceLabel: "A partir de",
   },
   {
     title: "Pré-laudo estruturado",
     description:
       "Estruturação técnica das informações do caso para apoiar a elaboração do laudo.",
-    price: "R$ 350",
+    price: "Sob proposta",
   },
   {
     title: "Cálculos e auditoria",
     description:
       "Conferência e análise dos cálculos relacionados ao processo.",
-    price: "R$ 120",
+    price: "Sob proposta",
   },
   {
     title: "Esclarecimentos",
     description:
       "Apoio na organização e preparação de esclarecimentos relacionados ao trabalho pericial.",
-    price: "R$ 100",
+    price: "Sob proposta",
   },
   {
     title: "Assessoria de início",
     description:
       "Suporte para quem está começando na atuação como perito, desde a organização inicial até os primeiros processos.",
-    price: "R$ 2.500 – R$ 4.500",
+    price: "Sob proposta",
   },
   {
     title: "Pacote Processo completo",
     description:
       "Uma solução integrada para acompanhar as principais etapas de um processo pericial.",
-    price: "R$ 500",
+    price: "Sob proposta",
   },
 ];
 
 const plans = [
   {
     name: "Essencial",
-    price: "R$ 990",
+    price: "Sob proposta",
     description: "Para quem precisa de suporte recorrente para sua rotina.",
   },
   {
     name: "Pleno",
-    price: "R$ 1.890",
+    price: "Sob proposta",
     description:
       "Para peritos com uma operação maior e necessidade de acompanhamento contínuo.",
     featured: true,
   },
   {
     name: "Full",
-    price: "R$ 3.490",
+    price: "Sob proposta",
     description:
       "Para uma estrutura mais completa de suporte e organização da atividade pericial.",
   },
@@ -213,7 +214,7 @@ export default function PeritosPage() {
                 </div>
 
                 <div className="service-price">
-                  <span>A partir de</span>
+                  {service.priceLabel && <span>{service.priceLabel}</span>}
                   <strong>{service.price}</strong>
                 </div>
 
@@ -259,7 +260,7 @@ export default function PeritosPage() {
 
                 <div className="plan-price">
                   <strong>{plan.price}</strong>
-                  <span>/mês</span>
+                  {plan.price !== "Sob proposta" && <span>/mês</span>}
                 </div>
 
                 <a href="#contato" className="plan-button">

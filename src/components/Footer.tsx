@@ -69,6 +69,11 @@ export default function Footer() {
         <span>
           Da burocracia ao essencial.
         </span>
+
+        <span>
+        Responsável técnico: Dr. Gustavo Faidiga — Médico Ortopedista —
+        CRM/SP 112622
+        </span>
       </div>
     </footer>
   );

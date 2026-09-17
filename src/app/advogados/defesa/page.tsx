@@ -13,60 +13,60 @@ const services = [
   {
     title: "Análise defensiva do processo",
     description:
-      "Leitura técnica do processo para identificar riscos, pontos sensíveis e questões médicas relevantes para a defesa.",
-    price: "R$ 1.200",
+      "Análise técnica dos aspectos médicos do processo para apoiar a estratégia defensiva.",
+    price: "Sob proposta",
   },
   {
     title: "Quesitos de defesa",
     description:
-      "Elaboração de quesitos direcionados aos aspectos técnicos que precisam ser esclarecidos durante a perícia.",
-    price: "R$ 450",
+      "Elaboração de quesitos técnicos direcionados aos pontos médicos relevantes para a defesa.",
+    price: "Sob proposta",
   },
   {
     title: "Acompanhamento da perícia",
     description:
-      "Suporte técnico durante a preparação e acompanhamento da etapa pericial.",
-    price: "R$ 1.800",
+      "Acompanhamento técnico da perícia, com atenção aos aspectos médicos relevantes para o processo.",
+    price: "Sob proposta",
   },
   {
     title: "Impugnação ao laudo",
     description:
-      "Análise crítica do laudo oficial para identificar inconsistências, omissões e pontos que merecem questionamento.",
-    price: "R$ 1.500",
+      "Análise técnica do laudo pericial e identificação dos pontos que merecem questionamento ou esclarecimento.",
+    price: "Sob proposta",
   },
   {
     title: "Segunda opinião para acordo",
     description:
-      "Avaliação técnica independente para auxiliar o escritório na compreensão dos riscos antes de uma decisão.",
-    price: "R$ 800",
+      "Análise técnica dos elementos médicos do processo para subsidiar a avaliação de alternativas de acordo.",
+    price: "Sob proposta",
   },
   {
     title: "Auditoria preventiva de SST",
     description:
-      "Avaliação documental preventiva para identificar vulnerabilidades antes que elas se transformem em problemas judiciais.",
-    price: "R$ 3.500",
+      "Análise preventiva da documentação e dos aspectos relacionados à saúde e segurança do trabalho.",
+    price: "Sob proposta",
   },
 ];
 
 const plans = [
   {
     name: "Defesa completa",
-    price: "R$ 4.500",
+    price: "Sob proposta",
     description:
-      "Uma solução integrada para processos que exigem acompanhamento técnico em diferentes etapas.",
+      "Estrutura completa de suporte técnico para os principais momentos da defesa.",
     featured: true,
   },
   {
     name: "Escritório parceiro",
-    price: "R$ 2.900",
+    price: "Sob proposta",
     description:
-      "Suporte recorrente para escritórios que atuam regularmente em processos com matéria médica.",
+      "Suporte técnico recorrente para escritórios que atuam com maior volume de processos.",
   },
   {
     name: "Empresa",
     price: "Sob proposta",
     description:
-      "Uma estrutura personalizada de acordo com o volume, operação e necessidades da empresa.",
+      "Estrutura de suporte técnico para empresas que precisam de acompanhamento contínuo.",
   },
 ];
 
@@ -190,6 +190,39 @@ export default function AdvogadosDefesaPage() {
                 processual, ajudando a identificar riscos, preparar perguntas e
                 avaliar tecnicamente os elementos apresentados no processo.
               </p>
+            </div>
+          </div>
+        </section>
+
+
+                {/* TRIAGEM GRATUITA */}
+        <section className="defesa-triagem">
+          <div className="defesa-triagem-inner">
+            <div className="defesa-triagem-content">
+              <span className="section-eyebrow">
+                TRIAGEM GRATUITA
+              </span>
+
+              <h2>
+                Antes de contratar,
+                <br />
+                entenda o seu caso.
+              </h2>
+
+              <p>
+                Envie o processo para uma avaliação inicial. A EasyMed verifica
+                se existem questões médicas relevantes que possam demandar
+                análise técnica.
+              </p>
+            </div>
+
+            <div className="defesa-triagem-action">
+              <span>Avaliação inicial em até 24 horas.</span>
+
+              <a href="#contato" className="btn-primary">
+                Solicitar triagem
+                <span>→</span>
+              </a>
             </div>
           </div>
         </section>
@@ -322,7 +355,6 @@ export default function AdvogadosDefesaPage() {
 
                 <div className="plan-price">
                   <strong>{plan.price}</strong>
-
                   {plan.price !== "Sob proposta" && (
                     <span>por solução</span>
                   )}

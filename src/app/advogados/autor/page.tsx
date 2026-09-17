@@ -13,60 +13,60 @@ const services = [
   {
     title: "Análise da causa de pedir",
     description:
-      "Leitura técnica do processo para identificar a presença de matéria médica e os pontos que podem exigir avaliação pericial.",
-    price: "R$ 490",
+      "Análise técnica dos elementos médicos relacionados à causa de pedir, auxiliando na identificação dos pontos relevantes para a perícia.",
+    price: "Sob proposta",
   },
   {
     title: "Quesitos do autor",
     description:
-      "Elaboração de quesitos direcionados aos pontos relevantes da discussão médica e pericial.",
-    price: "R$ 450",
+      "Elaboração de quesitos técnicos direcionados aos aspectos médicos relevantes do caso.",
+    price: "Sob proposta",
   },
   {
     title: "Acompanhamento da perícia",
     description:
-      "Suporte técnico para preparação e acompanhamento da etapa pericial do processo.",
-    price: "R$ 1.800",
+      "Acompanhamento técnico da perícia para auxiliar na condução e registro dos aspectos médicos relevantes.",
+    price: "Sob proposta",
   },
   {
     title: "Parecer técnico do assistente",
     description:
-      "Análise técnica do caso e elaboração de parecer para qualificar a atuação do advogado.",
-    price: "R$ 2.500",
+      "Análise técnica e elaboração de parecer para subsidiar a atuação do advogado no processo.",
+    price: "Sob proposta",
   },
   {
     title: "Crítica ao laudo oficial",
     description:
-      "Avaliação técnica do laudo apresentado para identificar inconsistências, omissões e pontos relevantes.",
-    price: "R$ 1.500",
+      "Análise técnica do laudo pericial, identificando pontos relevantes, inconsistências e aspectos que mereçam esclarecimento.",
+    price: "Sob proposta",
   },
   {
     title: "Pacote 10 análises",
     description:
-      "Para escritórios que precisam avaliar diferentes processos com matéria médica.",
-    price: "R$ 1.950",
+      "Pacote para escritórios que precisam de suporte técnico recorrente em diferentes processos.",
+    price: "Sob proposta",
   },
 ];
 
 const plans = [
   {
     name: "Causa de Pedir",
-    price: "R$ 1.490",
+    price: "Sob proposta",
     description:
-      "Para escritórios que precisam de apoio recorrente na análise inicial dos processos.",
+      "Suporte técnico focado na análise e estruturação dos elementos médicos da causa.",
   },
   {
     name: "Prova completa",
-    price: "R$ 3.250",
+    price: "Sob proposta",
     description:
-      "Uma estrutura mais completa para processos que exigem maior acompanhamento técnico.",
+      "Uma estrutura mais completa para fortalecer a análise técnica do caso.",
     featured: true,
   },
   {
     name: "Caso integral",
-    price: "R$ 4.200",
+    price: "Sob proposta",
     description:
-      "Acompanhamento amplo das principais etapas técnicas de um caso.",
+      "Acompanhamento técnico mais amplo, reunindo as principais etapas do trabalho.",
   },
 ];
 
@@ -168,7 +168,7 @@ export default function AdvogadosAutorPage() {
           <div className="autor-triagem-number">01</div>
 
           <div className="autor-triagem-content">
-            <span className="section-eyebrow">TRIAGEM INICIAL</span>
+            <span className="section-eyebrow">TRIAGEM GRATUITA</span>
 
             <h2>
               Antes de contratar,
@@ -323,7 +323,7 @@ export default function AdvogadosAutorPage() {
 
                 <div className="plan-price">
                   <strong>{plan.price}</strong>
-                  <span>por solução</span>
+                  {plan.price !== "Sob proposta" && <span>por solução</span>}
                 </div>
 
                 <a href="#contato" className="plan-button">
